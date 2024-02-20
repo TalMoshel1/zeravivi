@@ -1,0 +1,21 @@
+.arrow {
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: white;
+  border: 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.end {
+  background-color: grey;
+}
+
+@media screen and (orientation: landscape) {
+  .arrow-margin-top {
+    margin-top: 1svh;
+  }
+}

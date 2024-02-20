@@ -1,0 +1,27 @@
+/* header {
+  width: 100vw;
+  height: 20rem;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+header:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 0vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 25svh solid #555;
+}
+
+header:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 0vw solid transparent;
+  border-top: 25svh solid #555;
+  transform: translateX(50vw);
+} */

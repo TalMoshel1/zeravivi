@@ -1,0 +1,6 @@
+dialog {
+  height: max-height;
+  position: absolute;
+  z-index: 1;
+  top: calc(50svh - 100px);
+}

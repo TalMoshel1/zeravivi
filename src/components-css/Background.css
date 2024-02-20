@@ -1,0 +1,43 @@
+.background-container {
+  position: absolute;
+  top:0;
+}
+
+.upper-part:before,
+.upper-part:after,
+.lower-part:before,
+.lower-part:after {
+  width: 0;
+  height: 0;
+  content: "";
+  position: absolute;
+  z-index: 0;
+}
+
+.upper-part:before {
+  border-left: 0vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-top: 25vh solid pink;
+}
+
+.upper-part:after {
+  border-left: 50vw solid transparent;
+  border-right: 0vw solid transparent;
+  border-top: 75vh solid pink;
+  transform: translateX(50vw);
+}
+
+.lower-part:before {
+  top: 25vh;
+  border-left: 0vw solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 75vh solid #555;
+}
+
+.lower-part:after {
+  top: 75vh;
+  border-left: 50vw solid transparent;
+  border-right: 0vw solid transparent;
+  border-bottom: 25vh solid pink;
+  transform: translateX(50vw);
+}
