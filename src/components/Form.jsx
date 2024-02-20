@@ -33,10 +33,8 @@ const Form = () => {
       if (response.ok) {
         dispatch(setMessageSent(true));
         console.log(response);
-        console.log("Email sent successfully");
       } else {
         console.log(response);
-        console.error("Failed to send email");
       }
     } catch (error) {
       console.error("Error sending email:", error);
