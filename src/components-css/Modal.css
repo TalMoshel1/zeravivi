@@ -1,6 +1,25 @@
-dialog {
+.message-modal {
   height: max-height;
   position: absolute;
   z-index: 1;
+}
+
+.message-modal {
   top: calc(50svh - 100px);
+
+}
+
+footer {
+  width: 80%;
+  display: flex;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-button {
+  width: 100%;
 }

@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   box-sizing: border-box;
   margin: 0;
 }
@@ -43,9 +43,16 @@
 }
 
 .viewport-minus-navbar {
-  height: 100svh;
+  min-height: 100svh;
   display: flex;
+  flex-direction:column;
   align-items: center;
+  justify-content: center;
+}
+
+.viewport-minus-navbar-about {
+  height: 100svh;
+  margin-top:10svh;
 }
 
 .photos-arrows-align-top {
@@ -59,7 +66,7 @@
 }
 
 .last-page-height-margin {
-  height: 80svh;
+  height: 90svh;
 }
 
 @media screen and (max-width: 400px), (orientation: portrait) {
