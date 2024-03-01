@@ -1,17 +1,18 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "../components-css/Navbar.css";
-const Navbar = (props) => {
 
-  console.log('fgh')
-
+const Navbar = ({ onAboutClick, onPhotosClick, onContactClick }) => {
   return (
-
     <nav>
-      <div className="icon-container">
+      <ul>
+        <li onClick={onAboutClick}>About</li>
+        <li onClick={onContactClick}>Contact</li>
+        <li onClick={onPhotosClick}>Photos</li>
+      </ul>
+      {/* <div className="icon-container">
         <GiHamburgerMenu size="50" />
-
-      </div>
+      </div> */}
     </nav>
   );
 };

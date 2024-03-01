@@ -1,0 +1,33 @@
+.photo-modal {
+    height: max-content;
+    position: absolute;
+}
+
+.single-photo {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (orientation: landscape) {
+    .photo-modal-width-height {
+        width: 25svw;
+    }
+
+    .photo-modal-alignment {
+        top: 240svh
+     }
+}
+
+
+@media screen and (orientation: portrait) {
+    .photo-modal-width-height {
+        width: 90svw;
+    }
+
+    .photo-modal-alignment {
+        top: 232svh;
+}
+    
+    
+}

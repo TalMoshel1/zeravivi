@@ -51,7 +51,7 @@ const Form = () => {
 
   return (
     <>
-    <h1>contact</h1>
+    <h1>Contact</h1>
     <form onSubmit={handleSubmit}>
       <div className="form-item">
         <label htmlFor="name">Name:</label>
