@@ -17,7 +17,6 @@ const SinglePhoto = () => {
   const id = useParams()
 
   useEffect(()=>{
-    console.log(id)
     const photo = list.filter((photo)=>{return photo.id == id.id})
     setPhoto(photo[0])
   })
